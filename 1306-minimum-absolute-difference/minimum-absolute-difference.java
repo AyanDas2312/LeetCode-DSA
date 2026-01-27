@@ -8,7 +8,7 @@ class Solution {
                 min=arr[i]-arr[i-1];
                 lr.clear();
                 lr.add(Arrays.asList(arr[i-1],arr[i]));
-            }else if(Math.abs(arr[i]-arr[i-1])==min){
+            }else if(arr[i]-arr[i-1]==min){
                 lr.add(Arrays.asList(arr[i-1],arr[i]));
             }
         }
